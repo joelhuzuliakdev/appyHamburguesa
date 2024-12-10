@@ -291,6 +291,7 @@ a, p, input {
 }
 
 .botonFormularioRegistro .btnRegistro {
+    width: 100%;
     background-color: #F5A216;
 }
 
