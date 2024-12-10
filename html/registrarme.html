@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Registrarme</title>
+</head>
+<body>
+
+    <!-- #### INGRESAR #### -->
+
+    <div class="contenedorIngresar">
+        <div class="ingresar">
+            <div class="ingresarLogo">
+                <div class="transparencia">
+                    <img src="../img/logo.png" alt="Logo de la empresa">
+                </div>
+            </div>
+            <div class="contenedorFormulario">
+                <div class="registrarmeFormulario">
+                    <div class="botonFormularioRegistro">
+                        <a href="ingresar.html">Ingresar</a>
+                        <a class="btnRegistro" href="registrarme.html">Registrarme</a>
+                    </div>
+                    <h2 class="tituloSecundario">Bienvenido a Fast Food</h2>
+                    <form action="" class="formulario" id="registerForm">
+                        <label for="email">
+                            <input type="email" placeholder="E-mail" name="email">
+                            <div class="iconFormulario">
+                                <ion-icon class="iconEmail" name="mail-outline"></ion-icon>
+                            </div>
+                        </label>
+                        <label for="password">
+                            <input class="password" id="passwordInput" type="password" placeholder="Contraseña" name="password">
+                            <div class="iconFormulario" onclick="togglePasswordVisibility()">
+                                <ion-icon id="toggleIcon" class="iconOjo" name="eye-outline"></ion-icon>
+                            </div>
+                        </label>
+                        <button type="submit" class="btnPrincipal">Registrarme</button>
+                    </form>
+                    <div class="botonInfo">
+                        <p class="botonInfoCuenta">No tienes una cuenta?<a href="ingresar.html">Ingresa</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- #### SCRIPT DE ICONOS #### -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <!-- #### SCRIPT DE ICONOS #### -->
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+    <!-- #### SCRIPT REGISTRO #### -->
+    <script src="../js/registro.js"></script>
+    <!-- #### SCRIPT JS #### -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- #### SWIPER #### -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- #### SWEETALERT2 #### -->
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <!-- #### BOOTSTRAP #### -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- #### CSS BODY #### -->
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Hamburguesa Simple Bechis</title>
+</head>
+<body id="inicio">
+    
+
+    <!-- #### TITULO DE LA HAMBURGUESA #### -->
+
+    <div class="contenedorProductosTitulo bechisTitulo">
+        <a href="./hamburguesas.html">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+        </a>
+        <h2>Hamburguesa Simple Bechis</h2>
+    </div>
+
+    <main>
+        <!-- #### FOTO DE LA HAMBURGUESA SELECCIONADA #### -->
+
+        <section class="contenedorSeleccionada">
+            <div class="seleccionada">
+                <img src="../img/hamburguesaSimpleBechis.png" alt="Foto de hamburguesa simple bechis">
+                <img class="papita" src="../img/papita.png" alt="Foto de una papita">
+                <img class="papitaDos" src="../img/papita.png" alt="Foto de una papita">
+            </div>
+        </section>
+
+        <!-- #### LO QUE TRAE LA HAMBURGUESA #### -->
+
+        <section class="contenedorIngredientes">
+            <div class="ingredientes">
+                <div class="contenedorIngredientesInfo">
+                    <h3>ingredientes</h3>
+                    <div class="ingredientesInfo">
+                        <div class="informacionIngredientes">
+                            <div class="informacionIngredientesImg">
+                                <img src="../img/panDoble.png" alt="Dos panes">
+                            </div>
+                            <div class="infoIngredientes">
+                                <h4>Pan de Papa</h4>
+                                <p>Lorem ipsum dolor adipisicing elit.</p>
+                                <div class="cantidad" data-precio="200">
+                                    <h5>Cantidad:</h5>
+                                    <a href="#" class="sumarProducto"><ion-icon name="add-outline"></ion-icon></a>
+                                    <input type="number" class="inputCantidad" value="0">
+                                    <a href="#" class="restarProducto"><ion-icon name="remove-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="informacionIngredientes">
+                            <div class="informacionIngredientesImg">
+                                <img src="../img/tomates.png" alt="Foto de tomates">
+                            </div>
+                            <div class="infoIngredientes">
+                                <h4>Tomate</h4>
+                                <p>Lorem ipsum dolor adipisicing elit.</p>
+                                <div class="cantidad" data-precio="150">
+                                    <h5>Cantidad:</h5>
+                                    <a href="#" class="sumarProducto"><ion-icon name="add-outline"></ion-icon></a>
+                                    <input type="number" class="inputCantidad" value="0">
+                                    <a href="#" class="restarProducto"><ion-icon name="remove-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="informacionIngredientes">
+                            <div class="informacionIngredientesImg">
+                                <img src="../img/quesoCheddar.png" alt="Queso cheddar">
+                            </div>
+                            <div class="infoIngredientes">
+                                <h4>Cheddar</h4>
+                                <p>Lorem ipsum dolor adipisicing elit.</p>
+                                <div class="cantidad" data-precio="300">
+                                    <h5>Cantidad:</h5>
+                                    <a href="#" class="sumarProducto"><ion-icon name="add-outline"></ion-icon></a>
+                                    <input type="number" class="inputCantidad" value="0">
+                                    <a href="#" class="restarProducto"><ion-icon name="remove-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="informacionIngredientes">
+                            <div class="informacionIngredientesImg">
+                                <img src="../img/beicon.png" alt="Foto de una hamburguesa">
+                            </div>
+                            <div class="infoIngredientes">
+                                <h4>Beicon</h4>
+                                <p>Lorem ipsum dolor adipisicing elit.</p>
+                                <div class="cantidad" data-precio="1000">
+                                    <h5>Cantidad:</h5>
+                                    <a href="#" class="sumarProducto"><ion-icon name="add-outline"></ion-icon></a>
+                                    <input type="number" class="inputCantidad" value="0">
+                                    <a href="#" class="restarProducto"><ion-icon name="remove-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>   
+                        <div class="informacionIngredientes">
+                            <div class="informacionIngredientesImg">
+                                <img src="../img/carneHamburguesa.png" alt="Foto de una hamburguesa">
+                            </div>
+                            <div class="infoIngredientes">
+                                <h4>Hamburguesa</h4>
+                                <p>Lorem ipsum dolor adipisicing elit.</p>
+                                <div class="cantidad" data-precio="1000">
+                                    <h5>Cantidad:</h5>
+                                    <a href="#" class="sumarProducto"><ion-icon name="add-outline"></ion-icon></a>
+                                    <input type="number" class="inputCantidad" value="0">
+                                    <a href="#" class="restarProducto"><ion-icon name="remove-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>   
+                        <div class="informacionIngredientes">
+                            <div class="informacionIngredientesImg">
+                                <img src="../img/lechuga.png" alt="Foto de una lechuga">
+                            </div>
+                            <div class="infoIngredientes">
+                                <h4>Lechuga</h4>
+                                <p>Lorem ipsum dolor adipisicing elit.</p>
+                                <div class="cantidad" data-precio="200">
+                                    <h5>Cantidad:</h5>
+                                    <a href="#" class="sumarProducto"><ion-icon name="add-outline"></ion-icon></a>
+                                    <input type="number" class="inputCantidad" value="0">
+                                    <a href="#" class="restarProducto"><ion-icon name="remove-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="informacionIngredientes">
+                            <div class="informacionIngredientesImg">
+                                <img src="../img/papita.png" alt="Foto de una papa">
+                            </div>
+                            <div class="infoIngredientes">
+                                <h4>Papas</h4>
+                                <p>Lorem ipsum dolor adipisicing elit.</p>
+                                <div class="cantidad" data-precio="400">
+                                    <h5>Cantidad:</h5>
+                                    <a href="#" class="sumarProducto"><ion-icon name="add-outline"></ion-icon></a>
+                                    <input type="number" class="inputCantidad" value="0">
+                                    <a href="#" class="restarProducto"><ion-icon name="remove-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="informacionIngredientes">
+                            <div class="informacionIngredientesTodo">
+                                <div class="informacionIngredientesImg">
+                                    <img src="../img/mayoCasera.png" alt="Foto de la mayonesa casera">
+                                </div>
+                                <div class="infoIngredientes">
+                                    <h4>Mayo Casera</h4>
+                                    <p>Lorem ipsum dolor adipisicing elit.</p>
+                                    <div class="cantidad" data-precio="500">
+                                        <h5>Cantidad:</h5>
+                                        <a href="#" class="sumarProducto"><ion-icon name="add-outline"></ion-icon></a>
+                                        <input type="number" class="inputCantidad" value="0">
+                                        <a href="#" class="restarProducto"><ion-icon name="remove-outline"></ion-icon></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+
+                    <!-- #### TOTAL DE LA HAMBURGUESA #### -->
+
+                    <div class="totalHamburguesa">
+                        <h6>Total:</h6>
+                        <span class="precioTotal" id="precioTotal">$8000</span>
+                    </div>
+
+                    <!-- #### BOTON DE COMPRAR #### -->
+
+                    <div class="btnComprarProducto">
+                        <a href="#" id="btnComprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- #### FOOTER #### -->
+
+    <footer class="contenedorFooter">
+        <nav class="footerNav">
+            <ul class="footerNavegacion">
+                <a href="../html/inicio.html">
+                    <li>
+                        <ion-icon name="home-outline"></ion-icon>
+                        <p>Inicio</p>
+                    </li>
+                </a>
+                <a href="productos.html#inicio">
+                    <li>
+                        <ion-icon class="active" name="fast-food-outline"></ion-icon>
+                        <p class="active">Productos</p>
+                    </li>
+                </a>
+                <a href="../html/pedidos.html">
+                    <li>
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                        <p>Mis Pedidos</p>
+                    </li>
+                </a>
+                <a href="../html/perfil.html">
+                    <li>
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <p>Perfil</p>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+
+
+    <!-- #### SCRIPT DE ICONOS #### -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <!-- #### SCRIPT DE ICONOS #### -->
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+    <!-- #### SWEETALERT2 #### -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- #### BOOTSTRAP #### -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- #### SWIPER #### -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- #### SCRIPT #### -->
+    <script src="../js/main.js"></script>
+    <!-- #### SCRIPT DE CANTIDAD DE PRODUCTOS #### -->
+    <script src="../js/cantidadProductos.js"></script>
+</body>
+</html>
