@@ -182,34 +182,27 @@ a, p, input {
 }
 
 .botonFormulario {
-    width: 80%;
-    height: 7vh;
-    background-color: #ccc;
+    width: 90%;
     display: flex;
-    justify-content: end;
+    justify-content: space-evenly;
     align-items: center;
     margin: 20px auto;
-    border-radius: 2rem;
-    position: relative;
 }
 
 .botonFormulario a {
-    height: 100%;
+    width: 45%;
     text-decoration: none;
-    padding: 10px ;
-    color: #fff;
-    font-weight: bold;
-    background-color: #ccc;
+    font-size: 18px;
+    color: #000;
+    padding: 5px;
     border-radius: 2rem;
-    margin-left: 50px;
-    margin-right: 5px;
+    border: 2px solid #F5A216;
 }
 
 .botonFormulario .btnSecundario {
     background-color: #F5A216;
-    position: absolute;
-    left: -60px;
-    padding: 10px 18px;
+    color: #fff;
+    border: 2px solid #F5A216;
 }
 
 .tituloSecundario {
@@ -244,7 +237,7 @@ a, p, input {
 .iconFormulario {
     position: absolute;
     top: 7px;
-    right: 25px;
+    right: 35px;
 }
 
 .iconOjo {
@@ -268,38 +261,27 @@ a, p, input {
 /* #### REGISTRARME #### */
 
 .botonFormularioRegistro {
-    width: 80%;
-    height: 7vh;
-    background-color: #ccc;
+    width: 90%;
     display: flex;
-    justify-content: start;
+    justify-content: space-evenly;
     align-items: center;
     margin: 20px auto;
-    border-radius: 2rem;
-    position: relative;
 }
 
 .botonFormularioRegistro a {
-    height: 100%;
+    width: 45%;
     text-decoration: none;
-    padding: 10px;
-    color: #fff;
-    font-weight: bold;
-    background-color: #ccc;
+    font-size: 18px;
+    color: #000;
+    padding: 5px;
     border-radius: 2rem;
-    margin-right: 10px;
+    border: 2px solid #F5A216;
 }
 
 .botonFormularioRegistro .btnRegistro {
-    width: 55%;
-    top: 0;
-    right: -10px;
-    position: absolute;
     background-color: #F5A216;
-}
-
-.botonInfo .botonInfoCuenta {
-    color: #000;
+    color: #fff;
+    border: 2px solid #F5A216;
 }
 
 /* ------------------ INICIO --------------------- */
