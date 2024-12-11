@@ -284,6 +284,10 @@ a, p, input {
     border: 2px solid #F5A216;
 }
 
+.botonInfo .botonInfoCuenta {
+    color: #000;
+}
+
 /* ------------------ INICIO --------------------- */
 
 /* #### TITULO DE BIENVENIDA #### */
