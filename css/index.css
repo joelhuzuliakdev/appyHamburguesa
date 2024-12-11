@@ -843,7 +843,7 @@ a, p, input {
 .contenedorPerfil {
     width: 100%;
     height: auto;
-    padding-top: 100px;
+    padding-top: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
