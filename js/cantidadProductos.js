@@ -58,7 +58,7 @@ btnComprar.addEventListener("click", (e) => {
             width: "90%",
             position:"center",
         });
-    } else if (total > 7000) {
+    } else if (total > 6000) {
         Swal.fire({
             icon: "success",
             title: "Compra Exitosa",
